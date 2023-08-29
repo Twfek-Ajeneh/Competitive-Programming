@@ -27,4 +27,3 @@ This repository is dedicated to providing a collection of algorithms, data struc
 
 
 ![Image](Certificates/image.jpg)
-```
