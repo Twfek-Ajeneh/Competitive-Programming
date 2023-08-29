@@ -6,18 +6,18 @@ This repository is dedicated to providing a collection of algorithms, data struc
 
 ### 2021-2022 season:
 
-  #### ICPC Kickoff :
+  #### 1. ICPC Kickoff :
 
-  #### Damascus University Collegiate Programming Contest (DCPC):
+  #### 2. Damascus University Collegiate Programming Contest (DCPC):
 
 ### 2022-2023 season:
 
-  #### Damascus University Collegiate Programming Contest (DCPC):
+  #### 1. Damascus University Collegiate Programming Contest (DCPC):
 
 ### 2023-2024 season:
 
-  #### Damascus University Qualification Collegiate Programming Contest (DCPC):
+  #### 1. Damascus University Qualification Collegiate Programming Contest (DCPC):
 
-  #### Damascus University Collegiate Programming Contest (DCPC):
+  #### 2. Damascus University Collegiate Programming Contest (DCPC):
 
-  #### ICPC Syrian Collegiate Programming Contest:
+  #### 3. ICPC Syrian Collegiate Programming Contest:
