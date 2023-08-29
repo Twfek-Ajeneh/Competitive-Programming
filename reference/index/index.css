@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@300;400;500;700&display=swap');
+:root{
+    --main-color : #073763;
+    --secondary-color: #3182bd;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.index{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.title span{
+    margin-top: 10px;
+    width: 600px;
+    height: 1px;
+    background-color: var(--main-color);
+}
+
+.section{
+    margin-left: 40px;
+    /* margin-top: 40px; */
+    margin-right: 60px;
+}
+
+.section p{
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+.section p span{
+    text-transform: capitalize;
+}
+
+.section div{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.section div:first-letter{
+    text-transform: uppercase;
+}   
+
+.section div .divider{
+    flex: 1;
+    border-top: 1px dashed black;
+    height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-color: black; */
+}
