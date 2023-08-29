@@ -6,14 +6,16 @@ This repository is dedicated to providing a collection of algorithms, data struc
 
 ### 2021-2022 season:
    1. ICPC Kickoff:  
-          [Certificates](Certificates/2021-2022/kickoff/)
+          Honorable Mention [Certificates](Certificates/2021-2022/kickoff/)
    3. Damascus University Collegiate Programming Contest (DCPC):  
-          The Seventeenth Place  
-          [Certificates](Certificates/2021-2022/DCPC/)  
+          The Seventeenth Place [Certificates](Certificates/2021-2022/DCPC/)
+      
 ### 2022-2023 season:
    1. Damascus University Collegiate Programming Contest (DCPC):
+          The Sixteenth Place [Certificates](Certificates/2022-2023/DCPC/)
 
 ### 2023-2024 season:
    1. Damascus University Qualification Collegiate Programming Contest (DCPC):
-   2. Damascus University Collegiate Programming Contest (DCPC):
-   3. ICPC Syrian Collegiate Programming Contest:
+          The Fourth Place [see my Certificates](Certificates/2023-2024/DQCPC/)
+   3. Damascus University Collegiate Programming Contest (DCPC):
+   4. ICPC Syrian Collegiate Programming Contest:
