@@ -1,31 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+
 #define left p<<1 , l , (l+r)>>1
 #define right p<<1|1 , ((l+r)>>1)+1 , r
 
-// in complexity O(n) for each query:
-vector<int> depth(100100) , parent(100100);
-
-int solve(int x , int y){
-    while(depth[x] > depth[y]){
-        x = parent[x];
-    }
-    while(depth[x] < depth[y]){
-        y = parent[y];
-    }
-    while(x!=y){
-        x = parent[x];
-        y = parent[y];
-    }
-    return x;
-}
-
-
-// in complexity => O(log(n)):
-
-// by segment tree:
-
+//LCA by segment tree complexity O(log(n)):
 struct LCA{
     vector<int> first , occur , depth , seg;
     vector<vector<int>> adj;
@@ -74,8 +54,7 @@ struct LCA{
 };
 
 
-// by sparse table:
-
+//LCA by sparse table:
 struct LCA{
     vector<int> first , occur , depth;
     vector<vector<int>> st , adj;
@@ -121,21 +100,21 @@ struct LCA{
 };
 
 
-// LCA by Binary Lifting:
+//LCA by Binary Lifting:
+#define log2(x) (31^__builtin_clz(x))
 
-////!!!!!!first node is 0 here
-struct LCA
-{
+struct LCA{
     int n, lg;
-    vector<int> lev;
+    vector<int> lev; //depth
     vector<vector<int>> par , adj;
     
     LCA(vector<vector<int>> adj , int n , int root){
+        n++;
         this->adj = adj;
         this->n = n;
         this->lg = log2(n);
         lev.assign(n , 0);
-        par.assign(n, vector<int>(lg + 1, -1));
+        par.assign(n , vector<int>(lg + 1, -1));
         dfs(root, root, 0);
     }
 
@@ -164,10 +143,18 @@ struct LCA
                 u = par[u][i], v = par[v][i];
         return par[u][0];
     }
+
+    //get jth ancestor of node u;
+    int getAncestorJ(int u , int distance){
+        for (int i = lg; i >= 0; i--)
+            if (distance & 1 << i)
+                u = par[u][i];
+        return u;
+    }
 };
 
 
-// by using DSU:
+//LCA by using DSU:
 
 // code of DSU
 // don not forget to fill the query array;
@@ -195,3 +182,21 @@ struct LCA
 //     visited.assign(n+1 , 0);
 //     dfs(root);
 // }
+
+
+//LCA in complexity O(n):
+vector<int> depth(100100) , parent(100100);
+
+int solve(int x , int y){
+    while(depth[x] > depth[y]){
+        x = parent[x];
+    }
+    while(depth[x] < depth[y]){
+        y = parent[y];
+    }
+    while(x!=y){
+        x = parent[x];
+        y = parent[y];
+    }
+    return x;
+}

@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long
 
-//check and fill bipartite graph:
+//Check and fill bipartite graph:
 vector<int> color(100100 , -1) , adj[100100];
 
 bool isBipartite(int src){
@@ -26,9 +26,9 @@ bool isBipartite(int src){
 }
 
 
-//for grid:
+//Check and fill bipartite for grid:
 vector <pair<int , int>> d;
-char chess[1000][1000];
+char grid[1000][1000];
 
 void dfs(int x , int y){
     d.clear();
@@ -41,14 +41,14 @@ void dfs(int x , int y){
 void isBipartite(int x , int y){
     queue <pair<int , int>> q;
     q.push({x , y});
-    chess[x][y] = 'B';
+    grid[x][y] = 'B';
     while(!q.empty()){
         auto [a , b] = q.front();
         q.pop();
         dfs(a , b);
         for(auto [i , j] : d){
-            if(chess[i][j]=='.'){
-                (chess[a][b]=='B' ? chess[i][j] = 'W' : chess[i][j] = 'B');
+            if(grid[i][j]=='.'){
+                (grid[a][b]=='B' ? grid[i][j] = 'W' : grid[i][j] = 'B');
                 q.push({i , j});
             }
         }

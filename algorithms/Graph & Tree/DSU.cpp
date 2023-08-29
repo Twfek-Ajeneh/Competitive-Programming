@@ -3,6 +3,7 @@ using namespace std;
 #define ll long long
 #define inf (int)1e9
 
+//DSU:
 struct DSU{
     vector<int> par, siz;
     int comp;
@@ -19,6 +20,7 @@ struct DSU{
         return x;
     }
     
+    // merge u in component of v
     void merge(int u, int v) {
         int a=find(u);
         int b=find(v);

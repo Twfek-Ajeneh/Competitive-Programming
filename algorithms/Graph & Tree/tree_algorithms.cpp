@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long
 
-// to find the depth of each node:
+//Tree: find the depth of each node:
 vector<int> depth(100100) , adj[100100];
 
 void treeDepth(int u , int parent , int d){
@@ -12,9 +12,8 @@ void treeDepth(int u , int parent , int d){
             treeDepth(v , u , d+1);
 }
 
-
-// to find the size of each subtree:
-vector<int> subtree(100100);
+//Tree: find the size of each subtree:
+vector<int> subtree(100100) , adj[100100];
 
 int treeSize(int u , int parent){
     subtree[u] = 1;
@@ -26,8 +25,8 @@ int treeSize(int u , int parent){
     return subtree[u];
 }
 
-
-// to find th diameter of the tree:
+//Tree: find th diameter of the tree:
+vector<int> adj[100100];
 int diameter = 0 ;
 
 int treeDiameter(int u , int parent){
