@@ -25,6 +25,6 @@ This repository is dedicated to providing a collection of algorithms, data struc
    5. ICPC Syrian Collegiate Programming Contest:  
           The Eleventh Place - Bronze medal [Certificates](Certificates/2023-2024/SCPC)
 
-````markdown
+
 ![Image](Certificates/image.jpg)
 ```
