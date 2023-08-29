@@ -5,11 +5,11 @@ This repository is dedicated to providing a collection of algorithms, data struc
 ## My-Journey in ICPC
 
 ### 2021-2022 season:
-   1. ICPC Kickoff:
-          [see my Certificates](Certificates/2021-2022/kickoff/)
-   3. Damascus University Collegiate Programming Contest (DCPC):
-          The Seventeenth Place
-          [see my Certificates](Certificates/2021-2022/DCPC/)
+   1. ICPC Kickoff:  
+          [Certificates](Certificates/2021-2022/kickoff/)
+   3. Damascus University Collegiate Programming Contest (DCPC):  
+          The Seventeenth Place  
+          [Certificates](Certificates/2021-2022/DCPC/)  
 ### 2022-2023 season:
    1. Damascus University Collegiate Programming Contest (DCPC):
 
