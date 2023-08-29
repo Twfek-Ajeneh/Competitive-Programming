@@ -12,12 +12,12 @@ This repository is dedicated to providing a collection of algorithms, data struc
           The Seventeenth Place [Certificates](Certificates/2021-2022/DCPC/)
       
 ### 2022-2023 season:
-   1. Damascus University Collegiate Programming Contest (DCPC):
+   1. Damascus University Collegiate Programming Contest (DCPC):  
           The Sixteenth Place [Certificates](Certificates/2022-2023/DCPC/)
 
 ### 2023-2024 season:
    1. Damascus University Qualification Collegiate Programming Contest (DCPC):  
-          The Fourth Place [Certificates](Certificates/2023-2024/Qualification_DCPC)
+          The Fourth Place [Certificates](<Certificates/2023-2024/Qualification%20DCPC>)
       
    3. Damascus University Collegiate Programming Contest (DCPC):  
           The Eighth Place - Bronze medal [Certificates](Certificates/2023-2024/DCPC)
