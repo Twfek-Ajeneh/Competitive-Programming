@@ -20,10 +20,10 @@ This repository is dedicated to providing a collection of algorithms, data struc
           The Fourth Place [Certificates](<Certificates/2023-2024/Qualification%20DCPC>)
       
    3. Damascus University Collegiate Programming Contest (DCPC):  
-          The Eighth Place - Bronze medal [Certificates](Certificates/2023-2024/DCPC)
+          The Eighth Place - Bronze medal🥉 [Certificates](Certificates/2023-2024/DCPC)
       
    5. ICPC Syrian Collegiate Programming Contest:  
-          The Eleventh Place - Bronze medal [Certificates](Certificates/2023-2024/SCPC)
+          The Eleventh Place - Bronze medal🥉 [Certificates](Certificates/2023-2024/SCPC)
 
 
 ![Image](Certificates/image.jpg)
